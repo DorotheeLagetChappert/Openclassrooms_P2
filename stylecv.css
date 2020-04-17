@@ -1,0 +1,112 @@
+/*GENERAL*/
+html
+{
+
+}
+
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding: 1px 500px 1px 500px;
+}
+h1
+{
+    font-size: 30px;
+}
+h2
+{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 136, 0);
+    background-color: rgb(126, 126, 122);
+}
+h3
+{
+    font-size: 20px;
+}
+.presentation
+{
+    background-color: #FF8800;
+    display: flex;
+    flex-direction: column;
+    height: 1050px;
+    width: 250px;
+}
+.CONTACT
+{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.A_PROPOS_DE_MOI
+{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+.LOISIRS
+{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.parcours_pro
+{
+    display: flex;
+    flex-direction: column;
+    height: 1050px;
+    width: 1000px;
+    margin-left: 50px;
+}
+.parcours_pro p
+{
+    font-size: 20px;
+}
+.formation
+{
+
+}
+.blocs_formation
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.formation_date ul li
+{
+    width: 100px;
+    height: 102px;
+}
+.formation_lieu ul li
+{
+    list-style-type: none;
+    margin-left: 50px;
+    height: 100px;
+}
+.experience
+{
+
+}
+.recommandations
+{
+
+}
+
+/*FONTS*/
+
+
+/*IMAGE*/
+#photocv
+{
+    margin: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+/*Nouvelles règles si la fenêtre fait au plus 1024px*/
+@media all and (max-width:1024px)
+{}

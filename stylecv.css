@@ -8,15 +8,15 @@ body
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-    padding: 1px 500px 1px 500px;
+    padding: 68px 600px;
 }
 /*Bloc présentation*/
 h2
 {
     font-size: 20px;
     text-align: center;
-    color: rgb(255, 136, 0);
-    background-color: rgb(126, 126, 122);
+    color: #FF8800;
+    background-color: #7E7E7E;
 }
 .presentation
 {
@@ -29,21 +29,28 @@ h2
 .CONTACT
 {
     font-size: 15px;
+}
+.CONTACT p
+{
+    font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
 }
 .A_PROPOS_DE_MOI
 {
     font-size: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 400px;
+    margin-bottom: 409px;
 }
-.LOISIRS
+.A_PROPOS_DE_MOI p
 {
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
+    text-align: justify;
+}
+.LOISIRS
+{
+    font-size: 15px;
 }
 .LOISIRS ul
 {
@@ -51,6 +58,8 @@ h2
     width: 129px;
     display: flex;
     justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .LOISIRS ul li
 {
@@ -69,7 +78,10 @@ h1
     font-size: 30px;
     padding-top: 80px;
 }
-
+.prenom
+{
+    color: #FF8800;
+}
 h3
 {
     font-size: 20px;
@@ -87,80 +99,106 @@ h3
     font-size: 20px;
     padding-bottom: 40px;
 }
-
+.underline
+{
+    border-bottom: 2px solid;
+    border-color: #FF8800;
+}
 /*formation*/
-.blocs_formation
+.formation
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.formation_date ul
+.date_formation ul
 {
     padding-inline-start: 0px;
 }
-.formation_date ul li
+.date_formation ul li
 {
     width: 136px;
-    height: 120px;
+    height: 130px;
     list-style-type: none;
     font-size: 16px;
 }
-.formation_date ul li span
+.date_formation ul li span
 {
     margin-left: 20px;
 }
-.formation_lieu ul li
+.type_formation ul li
 {
     list-style-type: none;
-    margin-left: 50px;
-    height: 100px;
 }
-
+.type_formation ul li ul
+{
+    height: 130px;
+}
+.type_formation ul li ul li
+{
+    list-style-type: none;
+    margin-left: 15px;
+    height: 26px;
+    text-align: justify;
+}
 /*experience*/
-.blocs_experience
+.experience
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.experience_date ul
+.date_experience ul
 {
     padding-inline-start: 0px;
 }
-.experience_date ul li
+.date_experience ul li
 {
     width: 136px;
-    height: 138px;
+    height: 152px;
     list-style-type: none;
     font-size: 16px;
 }
-.experience_date ul li span
+.date_experience ul li span
 {
     margin-left: 20px;
 }
-.experience_lieu ul li
+.entreprise ul li
 {
     list-style-type: none;
-    margin-left: 50px;
-    height: 120px;
+}
+.entreprise ul li ul
+{
+    height: 150px;
+}
+.entreprise ul li ul li
+{
+    list-style-type: none;
+    margin-left: 15px;
+    height: 26px;
+    text-align: justify;
 }
 
-.bloc_recommandations
+.bloc_competences
 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     height: 137px;
 }
-.recommandation ul
+.competence
+{
+    width: 363px;
+}
+.competence ul
 {
     padding-left: 0px;
     padding-right: 120px;
 }
-.recommandation ul li
+.competence ul li
 {
     list-style-type: none;
+    height: 26px;
 }
 
 /*Icones*/
@@ -191,6 +229,11 @@ h3
     padding-inline-end: 10px;
     color: #FF8800; 
 }
+hr{
+    height: 2px;
+    background-color: #FF8800;
+    border: none;
+  }
 /*IMAGE*/
 #photocv
 {
@@ -198,11 +241,4 @@ h3
     overflow: hidden;
     border-radius: 50%;
     height: 192px;
-}
-
-
-/*Nouvelles règles si la fenêtre fait au plus 1024px*/
-@media all and (max-width:1024px)
-{
-
 }

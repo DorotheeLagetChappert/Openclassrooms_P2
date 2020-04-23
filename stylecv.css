@@ -7,8 +7,56 @@ body
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 68px 600px;
+    padding: 68px 208px;
+}
+.sections
+{
+    display: flex;
+    flex-direction: row; 
+    width: 975px;
+}
+/*header*/
+header
+{
+
+}
+.presentation
+{
+    display: flex;
+    flex-direction: row;
+    width: 975px;
+}
+.photo
+{
+    background-color: #FF8800;
+    height: 249px;
+    width: 249px;
+}
+.nom
+{
+    height: 249px;
+    margin-left: 50px;
+}
+h1
+{
+    font-size: 40px;
+    padding-top: 48px;
+}
+.prenom
+{
+    color: #FF8800;
+}
+.nom p
+{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.underline
+{
+    border-bottom: 2px solid;
+    border-color: #FF8800;
 }
 /*Bloc présentation*/
 h2
@@ -18,13 +66,13 @@ h2
     color: #FF8800;
     background-color: #7E7E7E;
 }
-.presentation
+.infos
 {
     background-color: #FF8800;
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 250px;
+    width: 368px;  
 }
 .CONTACT
 {
@@ -48,40 +96,7 @@ h2
     margin-right: 20px;
     text-align: justify;
 }
-.LOISIRS
-{
-    font-size: 15px;
-}
-.LOISIRS ul
-{
-    height: 63px;
-    width: 129px;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.LOISIRS ul li
-{
-    font-size: 2em;
-    list-style-type: none;
-    border-radius: 50%;
-    border: 2px solid #000000;
-    width: 38px;
-    height: 34px;
-    margin: 11px;
-    padding: 4px;
-}
 /*Parcours pro*/
-h1
-{
-    font-size: 30px;
-    padding-top: 80px;
-}
-.prenom
-{
-    color: #FF8800;
-}
 h3
 {
     font-size: 20px;
@@ -94,16 +109,6 @@ h3
     min-width: 552px;
     max-width: 1000px;
     margin-left: 50px;
-}
-.parcours_pro p
-{
-    font-size: 20px;
-    padding-bottom: 40px;
-}
-.underline
-{
-    border-bottom: 2px solid;
-    border-color: #FF8800;
 }
 /*formation*/
 .formation
@@ -201,6 +206,37 @@ h3
     list-style-type: none;
     height: 26px;
 }
+/*loisirs*/
+.LOISIRS
+{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 249px;
+    height: 160px;
+    background-color: #FF8800;
+}
+.LOISIRS ul
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.LOISIRS ul li
+{
+    font-size: 2em;
+    list-style-type: none;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    width: 38px;
+    height: 34px;
+    margin: 11px;
+    padding: 4px;
+}
+.icones
+{
+    height: 92px;
+}
 
 /*Icones*/
 .fa-dot-circle
@@ -241,5 +277,11 @@ hr{
     margin: 30px;
     overflow: hidden;
     border-radius: 50%;
-    height: 192px;
+    height: 193px;
+}
+
+/*Responsive*/
+@media screen and (max-width:499px)
+{
+
 }

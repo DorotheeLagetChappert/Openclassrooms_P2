@@ -58,6 +58,14 @@ h1
     border-bottom: 2px solid;
     border-color: #FF8800;
 }
+/*IMAGE*/
+#photocv
+{
+    margin: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 193px;
+}
 /*Bloc présentation*/
 h2
 {
@@ -76,7 +84,7 @@ h2
 }
 .CONTACT
 {
-    font-size: 15px;
+
 }
 .CONTACT p
 {
@@ -95,6 +103,32 @@ h2
     margin-left: 20px;
     margin-right: 20px;
     text-align: justify;
+}
+.LOISIRS
+{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 249px;
+    height: 160px;
+    background-color: #FF8800;
+}
+.LOISIRS ul
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.LOISIRS ul li
+{
+    font-size: 2em;
+    list-style-type: none;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    width: 38px;
+    height: 34px;
+    margin: 11px;
+    padding: 4px;
 }
 /*Parcours pro*/
 h3
@@ -184,7 +218,7 @@ h3
     height: 26px;
     text-align: justify;
 }
-
+/*compétences*/
 .bloc_competences
 {
     display: flex;
@@ -206,38 +240,6 @@ h3
     list-style-type: none;
     height: 26px;
 }
-/*loisirs*/
-.LOISIRS
-{
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    width: 249px;
-    height: 160px;
-    background-color: #FF8800;
-}
-.LOISIRS ul
-{
-    display: flex;
-    justify-content: space-around;
-    padding: 0px 20px;
-}
-.LOISIRS ul li
-{
-    font-size: 2em;
-    list-style-type: none;
-    border-radius: 50%;
-    border: 2px solid #000000;
-    width: 38px;
-    height: 34px;
-    margin: 11px;
-    padding: 4px;
-}
-.icones
-{
-    height: 92px;
-}
-
 /*Icones*/
 .fa-dot-circle
 {
@@ -271,17 +273,128 @@ hr{
     background-color: #FF8800;
     border: none;
   }
+
+
+
+/*Responsive*/
+@media screen and (max-width: 1280px)
+{
+    body
+{
+    padding: 68px 208px;
+}
+.sections
+{
+    display: flex;
+    flex-direction: column; 
+    width: 975px;
+}
+/*header*/
+.presentation
+{
+    width: 800px;
+    height: 228px;
+}
+.photo
+{
+    height: 211px;
+    width: 225px;
+    background-color: #ffffff;
+}
+.nom
+{
+    width: 100%;
+    height: 211px;
+}
+h1
+{
+    font-size: 22px;
+    padding-top: 48px;
+}
+.nom p
+{
+    font-size: 18px;
+}
 /*IMAGE*/
 #photocv
 {
-    margin: 30px;
-    overflow: hidden;
-    border-radius: 50%;
-    height: 193px;
+    margin: 9px;
+    height: 190px;
 }
-
-/*Responsive*/
-@media screen and (max-width:499px)
+/*Bloc présentation*/
+h2
 {
-
+    font-size: 18px;
+}
+.infos
+{
+    flex-direction: row;
+    height: 347px;
+    width: 800px; 
+    opacity: 0.8; 
+}
+.CONTACT p
+{
+    width: 177px;
+}
+.A_PROPOS_DE_MOI
+{
+    font-size: 15px;
+    margin-bottom: 346px;
+}
+.A_PROPOS_DE_MOI p
+{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.LOISIRS
+{
+    width: 249px;
+    height: 347px
+}
+.LOISIRS ul
+{
+    padding: 24px 34px;
+    flex-direction: column;
+}
+/*Parcours pro*/
+h3
+{
+    font-size: 18px;
+}
+.parcours_pro
+{
+    height: 1154px;
+    max-width: 800px;
+    margin-left: 0px;
+}
+/*formation*/
+.date_formation ul li
+{
+    width: 136px;
+    height: 117px;
+}
+.type_formation ul li ul
+{
+    height: 116px;
+}
+/*experience*/
+.date_experience ul li
+{
+    height: 137px;
+}
+.entreprise ul li ul
+{
+    height: 134px;
+}
+/*compétences*/
+.bloc_competences
+{
+    height: 121px;
+}
+.competence ul li
+{
+    list-style-type: none;
+    height: 24px;
+}
 }

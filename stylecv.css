@@ -9,13 +9,13 @@ body
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 68px 208px;
+    margin: auto;
+    width: 70%;
 }
 .sections
 {
     display: flex;
     flex-direction: row; 
-    width: 975px;
 }
 /*header*/
 header
@@ -26,13 +26,11 @@ header
 {
     display: flex;
     flex-direction: row;
-    width: 975px;
 }
 .photo
 {
     background-color: #FF8800;
     height: 249px;
-    width: 249px;
 }
 .nom
 {
@@ -42,7 +40,7 @@ header
 h1
 {
     font-size: 40px;
-    padding-top: 48px;
+    margin-top: 71px;
 }
 .prenom
 {
@@ -80,7 +78,8 @@ h2
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 368px;  
+    min-width: 250px;
+    max-width: 285px;
 }
 .CONTACT
 {
@@ -109,7 +108,6 @@ h2
     font-size: 15px;
     display: flex;
     flex-direction: column;
-    width: 249px;
     height: 160px;
     background-color: #FF8800;
 }
@@ -140,9 +138,7 @@ h3
     display: flex;
     flex-direction: column;
     height: 1050px;
-    min-width: 552px;
-    max-width: 1000px;
-    margin-left: 50px;
+    margin-left: 36px;
 }
 /*formation*/
 .formation
@@ -276,34 +272,186 @@ hr{
 
 
 
-/*Responsive*/
+/*RESPONSIVE VERSION TABLETTE*/
 @media screen and (max-width: 1280px)
 {
     body
 {
-    padding: 68px 208px;
+    width: 78.2%;
 }
 .sections
 {
     display: flex;
     flex-direction: column; 
-    width: 975px;
 }
 /*header*/
 .presentation
 {
-    width: 800px;
+    height: 184px;
+}
+.photo
+{
+    height: 184px;
+    background-color: #ffffff;
+}
+.nom
+{
+    height: 184px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+}
+h1
+{
+    font-size: 20px;
+}
+.nom p
+{
+    font-size: 17px;
+}
+/*IMAGE*/
+#photocv
+{
+    margin: 17px 52px;
+    height: 150px;
+}
+img
+{
+    height: 150px;
+}
+/*Bloc présentation*/
+h2
+{
+    font-size: 16px;
+    margin: 0px;
+}
+.CONTACT
+{
+    width: 30%;
+}
+.CONTACT p
+{
+    font-size: 13px;
+}
+.infos
+{
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1280px;
+    opacity: 0.8; 
+
+}
+.A_PROPOS_DE_MOI
+{
+    margin-bottom: 0px;
+    width: 70%;
+}
+.A_PROPOS_DE_MOI p
+{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.LOISIRS
+{
+    flex: 100%;
+    height: 86px;
+    justify-content: space-around;
+}
+.LOISIRS ul
+{
+    flex-direction: row;
+    padding: 0px;
+}
+.LOISIRS ul li
+{
+    font-size: 1.5em;
+    width: 30px;
+    height: 27px;
+    margin: 0px;
+}
+/*Parcours pro*/
+h3
+{
+    font-size: 16px;
+}
+.parcours_pro
+{
+    height: 1286px;
+    margin-left: 0px;
+}
+/*formation*/
+.date_formation ul li
+{
+    height: 117px;
+    font-size: 15px;
+}
+.type_formation ul li ul
+{
+    height: 116px;
+}
+.type_formation ul li ul li
+{
+    height: 26px;
+    font-size: 14px;
+    margin-left: 0px;
+}
+
+/*experience*/
+.date_experience ul li
+{
+    height: 120px;
+    font-size: 15px;
+}
+.entreprise ul li ul
+{
+    margin-left: 0px;
+    height: 116px;
+}
+.entreprise ul li ul li
+{
+    height: 25px;
+    font-size: 14px;
+    margin-left: 0px;
+}
+/*compétences*/
+.bloc_competences
+{
+    height: 121px;
+}
+.competence ul li
+{
+    list-style-type: none;
+    height: 24px;
+    font-size: 14px;
+}
+}
+
+/*RESPONSIVE VERSION MOBILE*/
+@media screen and (max-width: 800px)
+{
+    body
+{
+
+}
+.sections
+{
+    display: flex;
+    flex-direction: column; 
+}
+/*header*/
+.presentation
+{
+
     height: 228px;
 }
 .photo
 {
     height: 211px;
-    width: 225px;
+
     background-color: #ffffff;
 }
 .nom
 {
-    width: 100%;
+
     height: 211px;
 }
 h1
@@ -330,12 +478,12 @@ h2
 {
     flex-direction: row;
     height: 347px;
-    width: 800px; 
+
     opacity: 0.8; 
 }
 .CONTACT p
 {
-    width: 177px;
+
 }
 .A_PROPOS_DE_MOI
 {
@@ -349,7 +497,7 @@ h2
 }
 .LOISIRS
 {
-    width: 249px;
+
     height: 347px
 }
 .LOISIRS ul
@@ -365,13 +513,12 @@ h3
 .parcours_pro
 {
     height: 1154px;
-    max-width: 800px;
     margin-left: 0px;
 }
 /*formation*/
 .date_formation ul li
 {
-    width: 136px;
+
     height: 117px;
 }
 .type_formation ul li ul

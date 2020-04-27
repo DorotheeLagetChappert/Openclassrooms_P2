@@ -10,7 +10,7 @@ body
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    width: 70%;
+    width: 100%;
 }
 .sections
 {
@@ -79,7 +79,7 @@ h2
     flex-direction: column;
     height: auto;
     min-width: 250px;
-    max-width: 285px;
+    max-width: 282px;
 }
 .CONTACT
 {
@@ -273,11 +273,12 @@ hr{
 
 
 /*RESPONSIVE VERSION TABLETTE*/
-@media screen and (max-width: 1280px)
+@media screen and (max-width: 1024px)
 {
     body
 {
-    width: 78.2%;
+    min-width: 98%;
+    max-width: 78.2%;
 }
 .sections
 {
@@ -298,7 +299,7 @@ hr{
 {
     height: 184px;
     padding-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 30px;
 }
 h1
 {
@@ -311,7 +312,7 @@ h1
 /*IMAGE*/
 #photocv
 {
-    margin: 17px 52px;
+    margin: 17px 23px;
     height: 150px;
 }
 img
@@ -426,7 +427,7 @@ h3
 }
 
 /*RESPONSIVE VERSION MOBILE*/
-@media screen and (max-width: 800px)
+@media screen and (max-width: 625px)
 {
     body
 {

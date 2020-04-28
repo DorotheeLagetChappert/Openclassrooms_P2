@@ -79,7 +79,7 @@ h2
     flex-direction: column;
     height: auto;
     min-width: 250px;
-    max-width: 282px;
+    max-width: 250px;
 }
 .CONTACT
 {
@@ -429,7 +429,7 @@ h3
 /*RESPONSIVE VERSION MOBILE*/
 @media screen and (max-width: 625px)
 {
-    body
+body
 {
 
 }
@@ -442,45 +442,58 @@ h3
 .presentation
 {
 
-    height: 228px;
+    height: 294px;
+    flex-direction: column;
 }
 .photo
 {
-    height: 211px;
-
-    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nom
 {
 
-    height: 211px;
+    height: 83px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    text-align: center;
 }
 h1
 {
-    font-size: 22px;
-    padding-top: 48px;
+    padding-top: 0px;
+    margin-top: 13px;
 }
 .nom p
 {
-    font-size: 18px;
+    padding-bottom: 0px;
 }
 /*IMAGE*/
 #photocv
 {
-    margin: 9px;
-    height: 190px;
+    height: 169px;
+}
+img
+{
+    height: 179px;
+    vertical-align: middle;
 }
 /*Bloc présentation*/
 h2
 {
-    font-size: 18px;
+    
 }
 .infos
 {
     flex-direction: row;
-    height: 347px;
-
+    height: 673px;
     opacity: 0.8; 
+}
+.CONTACT
+{
+    width: 100%;
+    text-align: center;
+    height: 259px;
 }
 .CONTACT p
 {
@@ -488,23 +501,24 @@ h2
 }
 .A_PROPOS_DE_MOI
 {
-    font-size: 15px;
-    margin-bottom: 346px;
+    width: 100%;
+    text-align: center;
+    height: 328px;
 }
 .A_PROPOS_DE_MOI p
 {
-    font-size: 16px;
-    padding-top: 10px;
+    font-size: 15px;
 }
 .LOISIRS
 {
 
-    height: 347px
+    
 }
 .LOISIRS ul
 {
     padding: 24px 34px;
-    flex-direction: column;
+    flex-direction: row;
+    padding: 0px;
 }
 /*Parcours pro*/
 h3
@@ -517,28 +531,51 @@ h3
     margin-left: 0px;
 }
 /*formation*/
+.formation
+{
+    height: 650px;
+}
+.formation ul
+{
+    padding-inline-start: 10px;
+}
 .date_formation ul li
 {
-
-    height: 117px;
+    height: 197px;
 }
 .type_formation ul li ul
 {
-    height: 116px;
+    height: 200px;
+}
+.type_formation ul li ul li
+{
+    height: 50px;
 }
 /*experience*/
+.experience ul
+{
+    padding-inline-start: 10px;
+}
 .date_experience ul li
 {
-    height: 137px;
+    height: 226px;
 }
 .entreprise ul li ul
 {
-    height: 134px;
+    height: 227px;
+}
+.entreprise ul li ul li
+{
+    height: 44px;
 }
 /*compétences*/
 .bloc_competences
 {
     height: 121px;
+}
+.bloc_competences ul
+{
+    padding-right: 82px;
 }
 .competence ul li
 {

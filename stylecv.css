@@ -182,7 +182,6 @@ h3
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 .date_experience ul
 {
@@ -431,7 +430,8 @@ h3
 {
 body
 {
-
+    margin-inline-end: 10%;
+    margin-inline-start: 1%;
 }
 .sections
 {
@@ -486,7 +486,7 @@ h2
 .infos
 {
     flex-direction: row;
-    height: 673px;
+    height: 685px;
     opacity: 0.8; 
 }
 .CONTACT
@@ -503,7 +503,7 @@ h2
 {
     width: 100%;
     text-align: center;
-    height: 328px;
+    height: 340px;
 }
 .A_PROPOS_DE_MOI p
 {

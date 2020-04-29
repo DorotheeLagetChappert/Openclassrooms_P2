@@ -10,7 +10,7 @@ body
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    width: 100%;
+    max-width: 1024px;
 }
 .sections
 {

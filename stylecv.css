@@ -435,8 +435,8 @@ h3
 {
 body
 {
-    margin-inline-end: 10%;
-    margin-inline-start: 1%;
+    margin-right: 10%;
+    margin-left: 1%;
 }
 .sections
 {
@@ -542,7 +542,7 @@ h3
 }
 .formation ul
 {
-    padding-inline-start: 10px;
+    padding-left: 10px;
 }
 .date_formation ul li
 {
@@ -559,7 +559,7 @@ h3
 /*experience*/
 .experience ul
 {
-    padding-inline-start: 10px;
+    padding-left: 10px;
 }
 .date_experience ul li
 {

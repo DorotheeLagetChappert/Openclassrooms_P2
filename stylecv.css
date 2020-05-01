@@ -35,7 +35,7 @@ header
 .nom
 {
     height: 249px;
-    margin-left: 50px;
+    margin-left: 36px;
 }
 h1
 {
@@ -149,7 +149,7 @@ h3
 }
 .date_formation ul
 {
-    padding-inline-start: 0px;
+    padding-left: 0px;
 }
 .date_formation ul li
 {
@@ -185,7 +185,7 @@ h3
 }
 .date_experience ul
 {
-    padding-inline-start: 0px;
+    padding-left: 0px;
 }
 .date_experience ul li
 {
@@ -239,28 +239,33 @@ h3
 .fa-dot-circle
 {
     font-size: 10px;
-    padding-inline-end: 10px;
+    padding-left: 0px;
+    margin-right: 10px;
     color: #FF8800;
 }
 .fa-circle
 {
     font-size: 8px;
-    padding-inline-end: 10px;
+    padding-left: 0px;
+    margin-right: 10px;
     color: #FF8800;   
 }
 .fa-graduation-cap
 {
-    padding-inline-end: 10px;
+    padding-left: 0px;
+    margin-right: 10px;
     color: #FF8800; 
 }
 .fa-briefcase
 {
-    padding-inline-end: 10px;
+    padding-left: 10px;
+    margin: 0px;
     color: #FF8800; 
 }
 .fa-pencil-alt
 {
-    padding-inline-end: 10px;
+    padding-left: 10px;
+    margin: 0px;
     color: #FF8800; 
 }
 hr{

@@ -91,6 +91,10 @@ h2
     margin-left: 20px;
     margin-right: 20px;
 }
+a:visited
+{
+    color: #0000ff;
+}
 .A_PROPOS_DE_MOI
 {
     font-size: 15px;
